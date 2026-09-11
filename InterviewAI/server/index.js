@@ -13,15 +13,13 @@ const paymentRouter = require("./routes/payment.route");
 const app = express();
 
 // CORS
-app.use(
-    cors({
-        origin: [
-            "https://ai-interview-2-rayu.onrender.com/",
-            "http://YOUR_LAPTOP_IP:5173"
-        ],
-        credentials: true
-    })
-);
+app.use(cors({
+    origin: [
+        "http://localhost:5173",
+        "https://ai-interview-2-rayu.onrender.com"
+    ],
+    credentials: true
+}));
 
 // Middleware
 app.use(express.json());
