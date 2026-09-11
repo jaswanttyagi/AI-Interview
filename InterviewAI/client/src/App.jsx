@@ -12,7 +12,7 @@ import Pricing from './pages/Pricing';
 
 
 
-export const serverUrl = "http://localhost:4500"
+export const serverUrl = "https://ai-interview-1-jlyt.onrender.com"
 
 export const App = () => {
   const dispatch = useDispatch();
