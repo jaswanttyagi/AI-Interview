@@ -12,8 +12,7 @@ import Pricing from './pages/Pricing';
 
 
 
-export const serverUrl = import.meta.env.VITE_SERVER_URL || "http://localhost:5000"
-
+export const serverUrl =  "https://ai-interview-backend-u7ql.onrender.com";
 export const App = () => {
   const dispatch = useDispatch();
 
