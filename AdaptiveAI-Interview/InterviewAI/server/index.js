@@ -15,7 +15,7 @@ const app = express();
 // CORS
 const allowedOrigins = [
     "http://localhost:5173",
-    "https://client-lrqr9splg-jaswanttyagi66-3224s-projects.vercel.app"
+    "https://client-beta-azure-95.vercel.app"
 ];
 
 app.use(cors({
